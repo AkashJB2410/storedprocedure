@@ -1,6 +1,5 @@
 package com.storedProcedure.entity;
 
-import javax.annotation.Generated;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -93,6 +92,10 @@ public class Student {
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+	public static void deleteStudentInfo(int id2) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 

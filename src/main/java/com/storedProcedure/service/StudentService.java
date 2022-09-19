@@ -24,4 +24,9 @@ public class StudentService {
 		// TODO Auto-generated method stub
 		return studentRepository.save(student);
 	}
+
+	public void deleteStudentInfo(Student student) {
+		// TODO Auto-generated method stub
+		 studentRepository.delete(student);
+	}
 }
